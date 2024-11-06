@@ -42,11 +42,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56D1AB7736FFAD1FDAC7A9B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8BA1795C2CDA06A700068D11 = {
 			isa = PBXGroup;
 			children = (
 				8BA179672CDA06A700068D11 /* MovieApp */,
 				8BA179662CDA06A700068D11 /* Products */,
+				56D1AB7736FFAD1FDAC7A9B7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +85,6 @@
 				8BA179672CDA06A700068D11 /* MovieApp */,
 			);
 			name = MovieApp;
-			packageProductDependencies = (
-			);
 			productName = MovieApp;
 			productReference = 8BA179652CDA06A700068D11 /* MovieApp.app */;
 			productType = "com.apple.product-type.application";
