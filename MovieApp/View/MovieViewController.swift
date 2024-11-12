@@ -7,8 +7,21 @@
 
 import UIKit
 
-class MovieViewController: UIViewController {
-
+class MovieViewController: UIViewController{
+    
+    
+    @IBOutlet weak var backdropImage: UIImageView!
+    @IBOutlet weak var posterImage: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var releaseDateLabel: UILabel!
+    @IBOutlet weak var durationLabel: UILabel!
+    @IBOutlet weak var genreLabel: UILabel!
+    @IBOutlet weak var overviewLabel: UILabel!
+    
+    private var movieDetailViewModel = MovieDetailViewModel()
+    
+    var movieID: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,21 +33,29 @@ class MovieViewController: UIViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "top-bar-right"))
         navigationController?.navigationBar.tintColor = UIColor.white
         
+        movieDetailViewModel.fetchMovie(id: movieID)
         
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    private func initUI(){
+        
     }
-    */
     
-    
+}
 
+extension MovieViewController: MovieDetailViewModelDelegate{
+    func loadingMovie() {
+        print("loading")
+    }
+    
+    func didFetchMovie(movie: MovieDetailResponse) {
+        print("success")
+    }
+    
+    func didFailWithError(error: any Error) {
+        print("fail")
+    }
+    
+    
 }

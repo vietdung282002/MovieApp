@@ -21,6 +21,7 @@ struct Movie: Hashable{
     let duration : Int
 }
 
+
 #if DEBUG
 extension Movie {
     static var sampleData = [

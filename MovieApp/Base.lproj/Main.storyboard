@@ -42,71 +42,69 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spiderman3" translatesAutoresizingMaskIntoConstraints="NO" id="269-0G-Ufy">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="269-0G-Ufy">
                                 <rect key="frame" x="0.0" y="59" width="393" height="221"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="269-0G-Ufy" secondAttribute="height" multiplier="375:210.94" id="et4-EU-QRa"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spiderman2" translatesAutoresizingMaskIntoConstraints="NO" id="05l-Gj-wnm">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="05l-Gj-wnm">
                                 <rect key="frame" x="23.999999999999993" y="230.00000000000003" width="93.333333333333314" height="112.33333333333334"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="05l-Gj-wnm" secondAttribute="height" multiplier="100:120" id="Qo3-Pw-vEQ"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spiderman No Way Home" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMf-2q-rCq">
-                                <rect key="frame" x="129.33333333333337" y="292" width="239.66666666666663" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMf-2q-rCq">
+                                <rect key="frame" x="129.33333333333337" y="292" width="239.66666666666663" height="0.0"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" alpha="0.55000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fji-2F-bdL">
-                                <rect key="frame" x="319.66666666666669" y="236.66666666666666" width="63.333333333333314" height="33.333333333333343"/>
+                                <rect key="frame" x="342" y="240" width="41" height="30"/>
                                 <color key="backgroundColor" name="RateColor 1"/>
                                 <color key="tintColor" name="RateColor 1"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="Star" title="9.5">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                <buttonConfiguration key="configuration" style="filled" image="Star">
                                     <color key="baseForegroundColor" name="RateColor"/>
                                     <color key="baseBackgroundColor" name="RateColor 1"/>
                                 </buttonConfiguration>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CalendarBlank" translatesAutoresizingMaskIntoConstraints="NO" id="4QN-wz-6eO">
-                                <rect key="frame" x="54.333333333333336" y="367.33333333333331" width="16.000000000000007" height="16"/>
+                                <rect key="frame" x="88" y="358.33333333333331" width="16" height="16"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2021" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AB1-vi-IM5">
-                                <rect key="frame" x="70.333333333333329" y="366.33333333333331" width="33.666666666666671" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AB1-vi-IM5">
+                                <rect key="frame" x="104" y="366.33333333333331" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" name="TextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vector 1" translatesAutoresizingMaskIntoConstraints="NO" id="VR6-ZI-c6M">
-                                <rect key="frame" x="120" y="367.33333333333331" width="2" height="16"/>
+                                <rect key="frame" x="120" y="358.33333333333331" width="2" height="16"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Clock" translatesAutoresizingMaskIntoConstraints="NO" id="Ox4-Ef-tef">
-                                <rect key="frame" x="138" y="367.33333333333331" width="16.666666666666657" height="16"/>
+                                <rect key="frame" x="138" y="358.33333333333331" width="17" height="16"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="148 Minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biz-1f-dgW">
-                                <rect key="frame" x="154.66666666666666" y="366.33333333333331" width="84" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biz-1f-dgW">
+                                <rect key="frame" x="196.66666666666666" y="366.33333333333331" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" name="TextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vector 1" translatesAutoresizingMaskIntoConstraints="NO" id="n9g-j1-3iz">
-                                <rect key="frame" x="254.66666666666666" y="367.33333333333331" width="1.9999999999999716" height="16"/>
+                                <rect key="frame" x="212.66666666666666" y="358.33333333333331" width="2" height="16"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ticket" translatesAutoresizingMaskIntoConstraints="NO" id="1ob-Np-riI">
-                                <rect key="frame" x="272.66666666666669" y="367.33333333333331" width="17" height="16"/>
+                                <rect key="frame" x="230.66666666666666" y="358.33333333333331" width="17" height="16"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2k5-mG-GAO">
-                                <rect key="frame" x="293.66666666666669" y="366.33333333333331" width="37.333333333333314" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2k5-mG-GAO">
+                                <rect key="frame" x="251.66666666666666" y="366.33333333333331" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" name="TextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEl-i2-zID">
-                                <rect key="frame" x="24" y="420.33333333333331" width="345" height="83.666666666666686"/>
-                                <string key="text">From DC Comics comes the Suicide Squad, an antihero team of incarcerated supervillains who act as deniable assets for the United States government, undertaking high-risk black ops missions in exchange for commuted prison sentences.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEl-i2-zID">
+                                <rect key="frame" x="196.66666666666666" y="402.33333333333331" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -151,6 +149,15 @@
                             <constraint firstItem="vJR-LE-jSb" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2k5-mG-GAO" secondAttribute="trailing" symbolic="YES" id="zPF-IU-Iw6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backdropImage" destination="269-0G-Ufy" id="iPc-We-dgl"/>
+                        <outlet property="durationLabel" destination="biz-1f-dgW" id="oTn-hg-adj"/>
+                        <outlet property="genreLabel" destination="2k5-mG-GAO" id="fL0-Sh-oqW"/>
+                        <outlet property="overviewLabel" destination="bEl-i2-zID" id="kRN-MI-l70"/>
+                        <outlet property="posterImage" destination="05l-Gj-wnm" id="HWA-pH-f6C"/>
+                        <outlet property="releaseDateLabel" destination="AB1-vi-IM5" id="YCh-EO-mZ6"/>
+                        <outlet property="titleLabel" destination="TMf-2q-rCq" id="78t-i4-AZ3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hoc-nq-4fo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -181,8 +188,6 @@
         <image name="Star" width="17" height="16"/>
         <image name="Ticket" width="17" height="16"/>
         <image name="Vector 1" width="2" height="16"/>
-        <image name="spiderman2" width="100" height="120"/>
-        <image name="spiderman3" width="375" height="211"/>
         <namedColor name="BackgroundColor">
             <color red="0.14100000262260437" green="0.16500000655651093" blue="0.19599999487400055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
