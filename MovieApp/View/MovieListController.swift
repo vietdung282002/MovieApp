@@ -8,6 +8,7 @@
 import UIKit
 import Alamofire
 import AlamofireImage
+import MBProgressHUD
 
 class MovieListController: UICollectionViewController{
     
@@ -63,17 +64,14 @@ class MovieListController: UICollectionViewController{
 
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! MovieCell
             cell.titleLabel.text = item.title
-            cell.rateLabel.text = String(item.voteAverage)
-            cell.releaseLabel.text = String(item.releaseDate)
-            if item.duration == nil {
-                cell.durationLabel.text = ""
-            }else{
-                cell.durationLabel.text = String(item.duration!)
-            }
+            cell.rateLabel.text = item.formattedVoteAverage
+            cell.releaseLabel.text = item.formattedReleaseDate
+            cell.durationLabel.text = item.formattedDuration
+            
 
             let imageUrl = "https://image.tmdb.org/t/p/w600_and_h900_bestv2" + item.posterPath
             let url = URL(string: imageUrl)
-            cell.posterImage.image = UIImage(named: item.posterPath)
+            
             cell.posterImage.af.setImage(withURL: url!)
             cell.posterImage.contentMode = .scaleAspectFill
             cell.posterImage.layer.cornerRadius = 16
@@ -126,14 +124,16 @@ extension MovieListController:  MovieListViewModelDelegate{
         updateSnapshot()
         page += 1
         isLoadingMoreMovies = false
+        MBProgressHUD.hide(for: self.view, animated: true)
     }
     
     func didFailWithError(error: any Error) {
         isLoadingMoreMovies = false
+        MBProgressHUD.hide(for: self.view, animated: true)
     }
     
     func loadingMovieList() {
-        
+        MBProgressHUD.showAdded(to: self.view, animated: true)
     }
 }
 

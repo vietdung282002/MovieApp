@@ -49,23 +49,23 @@
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="05l-Gj-wnm">
-                                <rect key="frame" x="23.999999999999993" y="230.00000000000003" width="93.333333333333314" height="112.33333333333334"/>
+                                <rect key="frame" x="19.999999999999993" y="230.00000000000003" width="93.333333333333314" height="112.33333333333334"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="05l-Gj-wnm" secondAttribute="height" multiplier="100:120" id="Qo3-Pw-vEQ"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMf-2q-rCq">
-                                <rect key="frame" x="129.33333333333337" y="292" width="239.66666666666663" height="0.0"/>
+                                <rect key="frame" x="125.33333333333333" y="292" width="243.66666666666669" height="0.0"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" alpha="0.55000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fji-2F-bdL">
-                                <rect key="frame" x="342" y="240" width="41" height="30"/>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fji-2F-bdL">
+                                <rect key="frame" x="346" y="244" width="37" height="26"/>
                                 <color key="backgroundColor" name="RateColor 1"/>
                                 <color key="tintColor" name="RateColor 1"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="Star">
+                                <buttonConfiguration key="configuration" style="filled" image="Star" imagePadding="8" buttonSize="mini">
                                     <color key="baseForegroundColor" name="RateColor"/>
                                     <color key="baseBackgroundColor" name="RateColor 1"/>
                                 </buttonConfiguration>
@@ -75,7 +75,7 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AB1-vi-IM5">
                                 <rect key="frame" x="104" y="366.33333333333331" width="0.0" height="0.0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" name="TextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -87,7 +87,7 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biz-1f-dgW">
                                 <rect key="frame" x="196.66666666666666" y="366.33333333333331" width="0.0" height="0.0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" name="TextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -99,7 +99,7 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2k5-mG-GAO">
                                 <rect key="frame" x="251.66666666666666" y="366.33333333333331" width="0.0" height="0.0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" name="TextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -122,10 +122,10 @@
                             <constraint firstItem="n9g-j1-3iz" firstAttribute="leading" secondItem="biz-1f-dgW" secondAttribute="trailing" constant="16" id="HAP-Tg-z2F"/>
                             <constraint firstItem="269-0G-Ufy" firstAttribute="trailing" secondItem="vJR-LE-jSb" secondAttribute="trailing" id="NlL-zk-CVo"/>
                             <constraint firstItem="269-0G-Ufy" firstAttribute="leading" secondItem="vJR-LE-jSb" secondAttribute="leading" id="Nnf-st-iec"/>
-                            <constraint firstItem="05l-Gj-wnm" firstAttribute="leading" secondItem="vJR-LE-jSb" secondAttribute="leading" constant="24" id="RDU-sx-G8O"/>
+                            <constraint firstItem="05l-Gj-wnm" firstAttribute="leading" secondItem="vJR-LE-jSb" secondAttribute="leading" constant="20" id="RDU-sx-G8O"/>
                             <constraint firstItem="TMf-2q-rCq" firstAttribute="leading" secondItem="05l-Gj-wnm" secondAttribute="trailing" constant="12" id="Rqw-SV-hBg"/>
                             <constraint firstItem="bEl-i2-zID" firstAttribute="top" secondItem="AB1-vi-IM5" secondAttribute="bottom" constant="36" id="Sbh-LQ-kux"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bEl-i2-zID" secondAttribute="trailing" constant="24" id="TGw-2D-25T"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bEl-i2-zID" secondAttribute="trailing" constant="20" id="TGw-2D-25T"/>
                             <constraint firstItem="biz-1f-dgW" firstAttribute="centerX" secondItem="SYO-o1-6nG" secondAttribute="centerX" id="TqM-Td-eZh"/>
                             <constraint firstItem="2k5-mG-GAO" firstAttribute="centerY" secondItem="biz-1f-dgW" secondAttribute="centerY" id="VcI-T0-dYH"/>
                             <constraint firstItem="05l-Gj-wnm" firstAttribute="height" secondItem="vJR-LE-jSb" secondAttribute="height" multiplier="120/812" id="WQu-mk-TJf"/>
@@ -135,7 +135,7 @@
                             <constraint firstItem="vJR-LE-jSb" firstAttribute="trailing" secondItem="VR6-ZI-c6M" secondAttribute="trailing" constant="271" id="csF-VC-nhj"/>
                             <constraint firstItem="vJR-LE-jSb" firstAttribute="trailing" secondItem="TMf-2q-rCq" secondAttribute="trailing" constant="24" id="d58-Df-lCK"/>
                             <constraint firstItem="05l-Gj-wnm" firstAttribute="top" secondItem="269-0G-Ufy" secondAttribute="bottom" constant="-50" id="fpr-tU-n72"/>
-                            <constraint firstItem="bEl-i2-zID" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="SYO-o1-6nG" secondAttribute="leading" constant="24" id="grX-dE-qXk"/>
+                            <constraint firstItem="bEl-i2-zID" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="SYO-o1-6nG" secondAttribute="leading" constant="20" id="grX-dE-qXk"/>
                             <constraint firstItem="n9g-j1-3iz" firstAttribute="centerY" secondItem="biz-1f-dgW" secondAttribute="centerY" id="iWj-qn-akw"/>
                             <constraint firstItem="AB1-vi-IM5" firstAttribute="leading" secondItem="4QN-wz-6eO" secondAttribute="trailing" id="kAb-Vh-j5o"/>
                             <constraint firstItem="biz-1f-dgW" firstAttribute="centerY" secondItem="1ob-Np-riI" secondAttribute="centerY" id="nQH-Rq-Zmh"/>
@@ -157,6 +157,7 @@
                         <outlet property="posterImage" destination="05l-Gj-wnm" id="HWA-pH-f6C"/>
                         <outlet property="releaseDateLabel" destination="AB1-vi-IM5" id="YCh-EO-mZ6"/>
                         <outlet property="titleLabel" destination="TMf-2q-rCq" id="78t-i4-AZ3"/>
+                        <outlet property="voteAverage" destination="fji-2F-bdL" id="4bg-qi-Iof"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hoc-nq-4fo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
